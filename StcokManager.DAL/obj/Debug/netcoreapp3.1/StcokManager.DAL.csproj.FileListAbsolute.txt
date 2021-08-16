@@ -1,0 +1,11 @@
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\bin\Debug\netcoreapp3.1\StcokManager.DAL.deps.json
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\bin\Debug\netcoreapp3.1\StcokManager.DAL.dll
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\bin\Debug\netcoreapp3.1\StcokManager.DAL.pdb
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\obj\Debug\netcoreapp3.1\StcokManager.DAL.AssemblyInfoInputs.cache
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\obj\Debug\netcoreapp3.1\StcokManager.DAL.AssemblyInfo.cs
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\obj\Debug\netcoreapp3.1\StcokManager.DAL.dll
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\obj\Debug\netcoreapp3.1\StcokManager.DAL.pdb
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\bin\Debug\netcoreapp3.1\StcokManager.DAL.runtimeconfig.json
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\bin\Debug\netcoreapp3.1\StcokManager.DAL.runtimeconfig.dev.json
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\obj\Debug\netcoreapp3.1\StcokManager.DAL.genruntimeconfig.cache
+C:\Users\072820\source\repos\StockManager\StcokManager.DAL\obj\Debug\netcoreapp3.1\StcokManager.DAL.csproj.CoreCompileInputs.cache
