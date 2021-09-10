@@ -1,9 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\072820\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\072820\\.nuget\\packages",
-      "C:\\Users\\072820\\Desktop\\telerik\\ToolboxNuGetPackages"
-    ]
-  }
-}
