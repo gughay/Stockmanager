@@ -2,6 +2,7 @@
 using StockManager.BLL.Models;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using YahooFinanceApi;
 using DAL = StcokManager.DAL.Entities;
 
@@ -9,7 +10,7 @@ namespace StockManager.BLL.Business
 {
     public interface IStockService
     {
-        List<Stock> GetHistoricalData(MarketType marketType, string ticker, DateTime start, DateTime end, Period period);
+        Task<List<Stock>> GetHistoricalData(MarketType marketType, string ticker, DateTime start, DateTime end, Period period);
         void SaveData(List<Stock> stocks);
     }
 }

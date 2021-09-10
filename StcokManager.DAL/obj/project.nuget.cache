@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2g4NyYxsYTGlYSNT3qT2CekLKk6AcMD9aaUY47V/T4EPi7bL8hDqc6SY0e+bpMueZYtK5H3KjuiEKnSPzePjDA==",
+  "dgSpecHash": "YopVCj/Su8qXl5aygSActFCONUPMlT1SKK6LYVV+C84yk/ariJoqilvXnLQqhangFdB/5JTOTVewr3RGUCICFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\072820\\source\\repos\\StockManager\\StcokManager.DAL\\StcokManager.DAL.csproj",
+  "projectFilePath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StcokManager.DAL\\StcokManager.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\072820\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\072820\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

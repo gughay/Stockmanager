@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using YahooFinanceApi;
 using System.Linq;
 using DAL = StcokManager.DAL.Entities;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace StockManager.BLL.Business
 {
@@ -19,13 +21,13 @@ namespace StockManager.BLL.Business
             _marketData = marketData;
             _context = context;
         }
-        public List<Stock> GetHistoricalData(MarketType marketType,string ticker, DateTime start, DateTime end, Period period) 
+        public async Task<List<Stock>> GetHistoricalData(MarketType marketType,string ticker, DateTime start, DateTime end, Period period) 
         {
             List<Stock> result = null;
             //Firstly get data from DB if exist
             try
             {
-                _context.Stock.Where(d => d.Date >= start && d.Date <= end && d.Ticker == ticker).ToList();
+                await _context.Stock.Where(d => d.Date >= start && d.Date <= end && d.Ticker == ticker).ToListAsync();
             }
             catch (Exception)
             {
@@ -34,7 +36,7 @@ namespace StockManager.BLL.Business
             //GET DATA from public api
             if (result==null)
             {
-                result = _marketData.GetMarketdata(marketType, ticker, start, end, period);
+                result = await _marketData.GetMarketdata(marketType, ticker, start, end, period);
                 try
                 {
                     //SaveData(marketData);

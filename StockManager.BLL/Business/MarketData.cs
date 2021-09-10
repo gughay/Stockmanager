@@ -3,19 +3,20 @@ using StockManager.BLL.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using YahooFinanceApi;
 
 namespace StockManager.BLL.Business
 {
     public  class MarketData : IMarketData
     {
-        public List<Stock> GetMarketdata(MarketType marketType, string ticker, DateTime start, DateTime end, Period period) 
+        public async Task<List<Stock>> GetMarketdata(MarketType marketType, string ticker, DateTime start, DateTime end, Period period) 
         {
             List<Stock> result = null;
             switch (marketType)
             {
                 case MarketType.YahooFInance:
-                    result = GetYahooMarketData(ticker,  start,  end,  period);
+                    result = await GetYahooMarketData(ticker,  start,  end,  period);
                     break;
                 case MarketType.AlpacaMarkets:
                     break;
@@ -33,10 +34,10 @@ namespace StockManager.BLL.Business
 
         #region Markets
 
-        private List<Stock> GetYahooMarketData(string ticker, DateTime start, DateTime end, Period period)
+        private async Task<List<Stock>> GetYahooMarketData(string ticker, DateTime start, DateTime end, Period period)
         {
             var result = new List<Stock>();
-            var yahooData =Yahoo.GetHistoricalAsync(ticker, start, end, period).Result;
+            var yahooData =await Yahoo.GetHistoricalAsync(ticker, start, end, period);
             var performanceData = string.Empty;
             var firstDayPrice = yahooData[0].Close;
             foreach (var r in yahooData)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/cfK77Zi9LE0iJjO4O8/2+lmhSmtwFlovBW+XzRS4zyjgt2t3EFQDuKg0AVI9nFYl8SYruG4yvrPFvBrMQOJw==",
+  "dgSpecHash": "8rxosxi7mlvSGCmmkhIWfbom+oURYWjd+/+hRYr6eJu450qvUuoCLmFQRo2OQ3ZMXQW78D62JTSFbjbgTBmM/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\072820\\source\\repos\\StockManager\\StockManager.BLL\\StockManager.BLL.csproj",
+  "projectFilePath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StockManager.BLL\\StockManager.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\072820\\.nuget\\packages\\csvhelper\\7.1.1\\csvhelper.7.1.1.nupkg.sha512",
     "C:\\Users\\072820\\.nuget\\packages\\flurl\\2.5.2\\flurl.2.5.2.nupkg.sha512",

@@ -10010,11 +10010,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\072820\\source\\repos\\StockManager\\Stockmanager.Test\\StockManager.Test.csproj",
+      "projectUniqueName": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\Stockmanager.Test\\StockManager.Test.csproj",
       "projectName": "StockManager.Test",
-      "projectPath": "C:\\Users\\072820\\source\\repos\\StockManager\\Stockmanager.Test\\StockManager.Test.csproj",
+      "projectPath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\Stockmanager.Test\\StockManager.Test.csproj",
       "packagesPath": "C:\\Users\\072820\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\072820\\source\\repos\\StockManager\\Stockmanager.Test\\obj\\",
+      "outputPath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\Stockmanager.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\072820\\Desktop\\telerik\\ToolboxNuGetPackages"
@@ -10035,8 +10035,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\072820\\source\\repos\\StockManager\\StockManager.Client\\StockManager.Client.csproj": {
-              "projectPath": "C:\\Users\\072820\\source\\repos\\StockManager\\StockManager.Client\\StockManager.Client.csproj"
+            "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StockManager.Client\\StockManager.Client.csproj": {
+              "projectPath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StockManager.Client\\StockManager.Client.csproj"
             }
           }
         }

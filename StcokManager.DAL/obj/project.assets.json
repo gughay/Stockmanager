@@ -8478,11 +8478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\072820\\source\\repos\\StockManager\\StcokManager.DAL\\StcokManager.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StcokManager.DAL\\StcokManager.DAL.csproj",
       "projectName": "StcokManager.DAL",
-      "projectPath": "C:\\Users\\072820\\source\\repos\\StockManager\\StcokManager.DAL\\StcokManager.DAL.csproj",
+      "projectPath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StcokManager.DAL\\StcokManager.DAL.csproj",
       "packagesPath": "C:\\Users\\072820\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\072820\\source\\repos\\StockManager\\StcokManager.DAL\\obj\\",
+      "outputPath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StcokManager.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\072820\\Desktop\\telerik\\ToolboxNuGetPackages"

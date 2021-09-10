@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yPgwDBexFqC6QMc2SGBATTVv8jnkGKxWXiNkk1Nrak4nHp4K0T6jG35SuMIZLmkSp20euArYg7wG8jckjDq0sA==",
+  "dgSpecHash": "DzQvAKRfrx4F+CUxuDms8JLCIF4q+nR9hHpfLskLjsQz7Chs+De1aaW7iyOh+NoqiPWjc/Skc/mrW7LonWq1zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\072820\\source\\repos\\StockManager\\StockManager.Client\\StockManager.Client.csproj",
+  "projectFilePath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\StockManager.Client\\StockManager.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\072820\\.nuget\\packages\\csvhelper\\7.1.1\\csvhelper.7.1.1.nupkg.sha512",
     "C:\\Users\\072820\\.nuget\\packages\\flurl\\2.5.2\\flurl.2.5.2.nupkg.sha512",

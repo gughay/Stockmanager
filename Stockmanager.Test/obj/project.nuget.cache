@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOu5jqHYG3K4oiroOsj350sHiLAKkfZBueYkoz2yYSqlKrumQY0Mug9yK+3fKoWO6myS1SYLZWDhJAE5szR0gQ==",
+  "dgSpecHash": "mIIlWSi9QOEFFCI+hPqnB2VCrzYKnjMWfika6be+/5JsQtK5dlvrfzLDPOtwJ8ogxuBJSOB8/wVux69aLJ6QYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\072820\\source\\repos\\StockManager\\Stockmanager.Test\\StockManager.Test.csproj",
+  "projectFilePath": "C:\\Users\\072820\\Desktop\\New folder\\New folder\\Stockmanager\\Stockmanager.Test\\StockManager.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\072820\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\072820\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

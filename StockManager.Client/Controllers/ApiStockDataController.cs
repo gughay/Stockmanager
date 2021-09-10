@@ -5,6 +5,7 @@ using StockManager.BLL.Business;
 using StockManager.BLL.Enums;
 using YahooFinanceApi;
 using StockManager.BLL.Models;
+using System.Threading.Tasks;
 
 namespace StockManager.Client.Controllers
 {
@@ -18,14 +19,14 @@ namespace StockManager.Client.Controllers
         }
         [Route("~/api/ApiStockData/{ticker}/{start}/{end}/{period}")]
         [HttpGet]
-        public List<Stock> GetStockData(string ticker, string start, string end, string period)
+        public async Task<List<Stock>> GetStockData(string ticker, string start, string end, string period)
         {
             var p = Period.Daily;
             if (period.ToLower() == "weekly") p = Period.Weekly;
             else if (period.ToLower() == "monthly") p = Period.Monthly;
             var startDate = DateTime.Parse(start);
             var endDate = DateTime.Parse(end);
-            var stockdata = _stockService.GetHistoricalData(MarketType.YahooFInance, ticker, startDate, endDate, p);
+            var stockdata = await _stockService.GetHistoricalData(MarketType.YahooFInance, ticker, startDate, endDate, p);
             return stockdata;
         }
     }
